@@ -57,17 +57,15 @@
 
 ## 🚀 Getting Started
 
-### Requirements
-- Unity 2022.3 or newer
-- Git
+### Play from Unity Package
 
-### How to Run
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/your-username/Digital-Escape.git
-    ```
-2. Open the project using Unity Hub.
-3. Load `Scenes/MainMenu.unity` and click ▶ to play.
+1. **Download** [`Digital_Escape.unitypackage`](./Digital_Escape.unitypackage)
+2. **Open Unity** (2022.3 or later), create or open a project
+3. Go to `Assets > Import Package > Custom Package...`
+4. Import `Digital_Escape.unitypackage`
+5. In the `Scenes` folder, open the latest scene (e.g., `FinalScene.unity`)
+6. Click ▶ to start playing
+
 
 ---
 
