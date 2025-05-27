@@ -47,9 +47,9 @@
 
 ## 🖼️ Screenshots
 
-| Puzzle Room | Heart Wall | Monster Encounter |
+| Puzzle Room | Shop store | Monster and Dead |
 |-------------|------------|-------------------|
-| ![](./Assets/2025-05-03\ 130023.png) | ![](./Assets/2025-05-23\ 134312.png) | ![](./Assets/2025-05-23\ 134214.png) |
+| ![](./Assets/Puzzle_Room.png) | ![](./Assets/Shop_Store.png) | ![](./Assets/Monster_and_Dead.png) |
 
 > ✅ Tip: Move these images to a `screenshots/` folder and update the paths to keep things organized.
 
