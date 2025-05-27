@@ -47,9 +47,9 @@
 
 ## 🖼️ Screenshots
 
-| Puzzle Room | Shop store | Monster and Dead |
-|-------------|------------|-------------------|
-| ![](./Assets/Puzzle_Room.png) | ![](./Assets/Shop_Store.png) | ![](./Assets/Monster_and_Dead.png) |
+| Shop store | Monster and Dead |
+|------------|-------------------|
+|![](./Assets/Shop_Store.png) | ![](./Assets/Monster_and_Dead.png) |
 
 > ✅ Tip: Move these images to a `screenshots/` folder and update the paths to keep things organized.
 
