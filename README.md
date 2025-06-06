@@ -4,7 +4,7 @@
 
 ## 🧠 Overview
 
-**Digital Escape** is a 2D puzzle adventure game developed as a class project at the **University of Illinois Chicago** (Jan 2025 – May 2025). The game challenges players with math and science questions in order to unlock doors and escape, all while avoiding AI-controlled monsters navigating the map using Unity NavMesh.
+**Digital** Escape is a 2D puzzle adventure game designed and built collaboratively with a small team of fellow developers. Inspired by educational games and classic dungeon crawlers, it features math and science challenges to unlock paths, while AI-powered monsters chase players using Unity NavMesh.
 
 ---
 
@@ -19,15 +19,15 @@
 
 ---
 
-## 🧑‍💻 Tech Stack
+## 👩‍💻 Tech Stack
 
-| Technology | Description |
-|------------|-------------|
-| Unity      | Game development engine |
-| C#         | Main scripting language |
-| NavMesh    | Used for AI enemy navigation |
-| Jira       | Team collaboration and task management |
-| Git + GitHub | Version control and project sharing |
+| 🛠 Technology       | 💡 Description                                                                 |
+|--------------------|---------------------------------------------------------------------------------|
+| **Unity**          | Game development engine                                                         |
+| **C#**             | Main scripting language                                                         |
+| **NavMesh + BT + SM** | AI navigation and behavior (NavMesh, Behavior Tree, State Machine)              |
+| **Jira**           | Team collaboration and task tracking                                            |
+| **Git + GitHub**   | Version control and project collaboration                                       |
 
 ---
 
