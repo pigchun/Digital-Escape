@@ -47,11 +47,11 @@
 
 ## 🖼️ Screenshots
 
-| Shop store | Monster and Dead |
-|------------|-------------------|
-|![](./Assets/Shop_Store.png) | ![](./Assets/MonsterAndDead.png) |
 
-> ✅ Tip: Move these images to a `screenshots/` folder and update the paths to keep things organized.
+| AI Box Monster | Shop Store | Monster and Dead |
+|----------------|------------|------------------|
+| ![](./Assets/Screenshots/AI_Box_monster.png) | ![](./Assets/Screenshots/Shop_Store.png) | ![](./Assets/Screenshots/MonsterAndDead.png) |
+
 
 ---
 
