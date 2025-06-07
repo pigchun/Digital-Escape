@@ -62,14 +62,21 @@ Here’s a short demo of how AI works with obstacle in motion:
 
 ## 🚀 Getting Started
 
-### Play from Unity Package
+### Play from GitHub Repository
 
-1. **Download** [`Digital_Escape.unitypackage`](./Digital_Escape.unitypackage)
-2. **Open Unity** (2022.3 or later), create or open a project
-3. Go to `Assets > Import Package > Custom Package...`
-4. Import `Digital_Escape.unitypackage`
-5. In the `Scenes` folder, open the latest scene (e.g., `FinalScene.unity`)
-6. Click ▶ to start playing
+1. **Fork** or **Clone** this repository to your local machine:
+   git clone https://github.com/your-username/Digital-Escape.git
+
+2.   Open Unity Hub (Unity 2022.3 or later)
+
+3. In Unity Hub, click "Add" → "Add project from disk..."
+
+4. Select the cloned Digital-Escape folder and open it
+
+5. Once loaded, go to the Scenes folder and open the latest scene
+(e.g., demo4.unity)
+
+6. Click ▶️ in the Unity Editor to start playing!
 
 
 ---
