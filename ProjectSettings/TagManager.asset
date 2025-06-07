@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Key 9
+  - Coin
+  - Door 2
+  - Key 5
+  - Question Canvas
+  - Key 7
+  - Exit
+  - Key 1
+  - Hourglass
+  - Key 2
+  - Door 9
+  - Door 1
+  - Door 5
+  - Door 6
+  - Door 3
+  - Key 4
+  - Key 6
+  - Door 4
+  - Key 3
+  - Wall
+  - Door 7
+  - Door 8
+  - Heart
+  - Key 8
+  - Dust
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - wall
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

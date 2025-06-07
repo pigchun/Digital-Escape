@@ -1,0 +1,877 @@
+fileFormatVersion: 2
+guid: 0835bafb209a4f142aaa994c4f2abeb8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -374831065527699253
+    second: m15_Attack_0
+  - first:
+      213: -3617483339914987737
+    second: m15_Attack_1
+  - first:
+      213: 245182665373378305
+    second: m15_Attack_2
+  - first:
+      213: -6282290799693509270
+    second: m15_Attack_3
+  - first:
+      213: 5846614358036941568
+    second: m15_Attack_4
+  - first:
+      213: 7634943516601108640
+    second: m15_Attack_5
+  - first:
+      213: 1597118952025811792
+    second: m15_Attack_6
+  - first:
+      213: -4226265189991494351
+    second: m15_Attack_7
+  - first:
+      213: -8861391961129913441
+    second: m15_Attack_8
+  - first:
+      213: 3805694942723720438
+    second: m15_Attack_9
+  - first:
+      213: -3395396765183472345
+    second: m15_Attack_10
+  - first:
+      213: -3736813854906512937
+    second: m15_Attack_11
+  - first:
+      213: 4535295526541509451
+    second: m15_Attack_12
+  - first:
+      213: 1171973734446348594
+    second: m15_Attack_13
+  - first:
+      213: 9096193663456804056
+    second: m15_Attack_14
+  - first:
+      213: 6031706472272184690
+    second: m15_Attack_15
+  - first:
+      213: -1102537526816096540
+    second: m15_Attack_16
+  - first:
+      213: 1919381532756731776
+    second: m15_Attack_17
+  - first:
+      213: 8551940174317998044
+    second: m15_Attack_18
+  - first:
+      213: -5689435767140102109
+    second: m15_Attack_19
+  - first:
+      213: -2745160756273172582
+    second: m15_Attack_20
+  - first:
+      213: 147481632764865642
+    second: m15_Attack_21
+  - first:
+      213: -4065277460049646896
+    second: m15_Attack_22
+  - first:
+      213: -986085765509823847
+    second: m15_Attack_23
+  - first:
+      213: 6670555522389822604
+    second: m15_Attack_24
+  - first:
+      213: -9165424918461854142
+    second: m15_Attack_25
+  - first:
+      213: 1789658525326116590
+    second: m15_Attack_26
+  - first:
+      213: -7223122791073899180
+    second: m15_Attack_27
+  - first:
+      213: 8412857942604373424
+    second: m15_Attack_28
+  - first:
+      213: -363459076573080107
+    second: m15_Attack_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m15_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8b070c1255ccaf0800000000000000
+      internalID: -374831065527699253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 400
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727397f811e1ccdc0800000000000000
+      internalID: -3617483339914987737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 400
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107e9aac550176300800000000000000
+      internalID: 245182665373378305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 400
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d409c7dc1d0d8a0800000000000000
+      internalID: -6282290799693509270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 400
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b8d7d28c8532150800000000000000
+      internalID: 5846614358036941568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 400
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a84e2b3da4c4f960800000000000000
+      internalID: 7634943516601108640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 400
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bea87993b1a2610800000000000000
+      internalID: 1597118952025811792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 400
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d45ff833a4955c0800000000000000
+      internalID: -4226265189991494351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 400
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93795506f2060580800000000000000
+      internalID: -8861391961129913441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 400
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f44c80136b80d430800000000000000
+      internalID: 3805694942723720438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d8ab3b1a021e0d0800000000000000
+      internalID: -3395396765183472345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 200
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d90a82f89b242cc0800000000000000
+      internalID: -3736813854906512937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 200
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43ccea904b90fe30800000000000000
+      internalID: 4535295526541509451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 200
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23933cfe6efa34010800000000000000
+      internalID: 1171973734446348594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 200
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc708671fb2c3e70800000000000000
+      internalID: 9096193663456804056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 200
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2754535441de4b350800000000000000
+      internalID: 6031706472272184690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 200
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eeb69af5fff2b0f0800000000000000
+      internalID: -1102537526816096540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 200
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087e860b55303aa10800000000000000
+      internalID: 1919381532756731776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 200
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfcd9647489ea670800000000000000
+      internalID: 8551940174317998044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 200
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320563f40501b01b0800000000000000
+      internalID: -5689435767140102109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9faefe26da37e9d0800000000000000
+      internalID: -2745160756273172582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c28db73c5fb0200800000000000000
+      internalID: 147481632764865642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daa65850bb3597c0800000000000000
+      internalID: -4065277460049646896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992c7b48838b052f0800000000000000
+      internalID: -986085765509823847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8cc09ec7e2929c50800000000000000
+      internalID: 6670555522389822604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_25
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e419fd89eddc080800000000000000
+      internalID: -9165424918461854142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_26
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 0
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6005f52f426d810800000000000000
+      internalID: 1789658525326116590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_27
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 0
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d130d571052cb90800000000000000
+      internalID: -7223122791073899180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_28
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdd1ceb9b970c470800000000000000
+      internalID: 8412857942604373424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m15_Attack_29
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 0
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5587245ebb4faf0800000000000000
+      internalID: -363459076573080107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      m15_Attack_0: -374831065527699253
+      m15_Attack_1: -3617483339914987737
+      m15_Attack_10: -3395396765183472345
+      m15_Attack_11: -3736813854906512937
+      m15_Attack_12: 4535295526541509451
+      m15_Attack_13: 1171973734446348594
+      m15_Attack_14: 9096193663456804056
+      m15_Attack_15: 6031706472272184690
+      m15_Attack_16: -1102537526816096540
+      m15_Attack_17: 1919381532756731776
+      m15_Attack_18: 8551940174317998044
+      m15_Attack_19: -5689435767140102109
+      m15_Attack_2: 245182665373378305
+      m15_Attack_20: -2745160756273172582
+      m15_Attack_21: 147481632764865642
+      m15_Attack_22: -4065277460049646896
+      m15_Attack_23: -986085765509823847
+      m15_Attack_24: 6670555522389822604
+      m15_Attack_25: -9165424918461854142
+      m15_Attack_26: 1789658525326116590
+      m15_Attack_27: -7223122791073899180
+      m15_Attack_28: 8412857942604373424
+      m15_Attack_29: -363459076573080107
+      m15_Attack_3: -6282290799693509270
+      m15_Attack_4: 5846614358036941568
+      m15_Attack_5: 7634943516601108640
+      m15_Attack_6: 1597118952025811792
+      m15_Attack_7: -4226265189991494351
+      m15_Attack_8: -8861391961129913441
+      m15_Attack_9: 3805694942723720438
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

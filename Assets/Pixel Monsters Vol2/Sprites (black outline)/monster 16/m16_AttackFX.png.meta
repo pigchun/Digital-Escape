@@ -1,0 +1,627 @@
+fileFormatVersion: 2
+guid: 85dadf52456c51443be80af6a26604f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7105073681788346780
+    second: m16_AttackFX_0
+  - first:
+      213: -1072864859692535853
+    second: m16_AttackFX_1
+  - first:
+      213: 4344790971379686886
+    second: m16_AttackFX_2
+  - first:
+      213: 1793663666549019527
+    second: m16_AttackFX_3
+  - first:
+      213: -6035380641236636007
+    second: m16_AttackFX_4
+  - first:
+      213: -2206861542363474322
+    second: m16_AttackFX_5
+  - first:
+      213: -3630257077611049521
+    second: m16_AttackFX_6
+  - first:
+      213: 5105461345458454534
+    second: m16_AttackFX_7
+  - first:
+      213: 7946609854862630636
+    second: m16_AttackFX_8
+  - first:
+      213: 1466030902674584339
+    second: m16_AttackFX_9
+  - first:
+      213: -630463894844237332
+    second: m16_AttackFX_10
+  - first:
+      213: 3868910426210995386
+    second: m16_AttackFX_11
+  - first:
+      213: 1108911527722570987
+    second: m16_AttackFX_12
+  - first:
+      213: 5898752233534815348
+    second: m16_AttackFX_13
+  - first:
+      213: -8855764112336642048
+    second: m16_AttackFX_14
+  - first:
+      213: 4822167521740251836
+    second: m16_AttackFX_15
+  - first:
+      213: 6691960909635266593
+    second: m16_AttackFX_16
+  - first:
+      213: 7753956640502935144
+    second: m16_AttackFX_17
+  - first:
+      213: -7762356040417920997
+    second: m16_AttackFX_18
+  - first:
+      213: 3998930106045993399
+    second: m16_AttackFX_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m16_AttackFX_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91a8f98eda4a9260800000000000000
+      internalID: 7105073681788346780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m16_AttackFX_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 108
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfe60a281b6c11f0800000000000000
+      internalID: -1072864859692535853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m16_AttackFX_2
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 108
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed19686e5ccb4c30800000000000000
+      internalID: 4344790971379686886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m16_AttackFX_3
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 108
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783dd2bf99f54e810800000000000000
+      internalID: 1793663666549019527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m16_AttackFX_4
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 108
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e22da98450e3ca0800000000000000
+      internalID: -6035380641236636007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m16_AttackFX_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6654f2ae17af51e0800000000000000
+      internalID: -2206861542363474322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m16_AttackFX_6
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 72
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd45adfb6cbe9dc0800000000000000
+      internalID: -3630257077611049521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m16_AttackFX_7
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 72
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6000a863b0e3ad640800000000000000
+      internalID: 5105461345458454534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m16_AttackFX_8
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 72
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee94bf5f87084e60800000000000000
+      internalID: 7946609854862630636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m16_AttackFX_9
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 72
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313f9afa653685410800000000000000
+      internalID: 1466030902674584339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m16_AttackFX_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce999109d642047f0800000000000000
+      internalID: -630463894844237332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m16_AttackFX_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 36
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc8c16c88121b530800000000000000
+      internalID: 3868910426210995386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m16_AttackFX_12
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 36
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be45d31c825a36f00800000000000000
+      internalID: 1108911527722570987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m16_AttackFX_13
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 36
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c72e947e39cd150800000000000000
+      internalID: 5898752233534815348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m16_AttackFX_14
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 36
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000a58da5710a1580800000000000000
+      internalID: -8855764112336642048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m16_AttackFX_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2e0c4efc7cbe240800000000000000
+      internalID: 4822167521740251836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m16_AttackFX_16
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1282c95edfe9edc50800000000000000
+      internalID: 6691960909635266593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m16_AttackFX_17
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e65f87b769b9b60800000000000000
+      internalID: 7753956640502935144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m16_AttackFX_18
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1838c6de42964490800000000000000
+      internalID: -7762356040417920997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m16_AttackFX_19
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 360
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b19c748ebd0f7730800000000000000
+      internalID: 3998930106045993399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      m16_AttackFX_0: 7105073681788346780
+      m16_AttackFX_1: -1072864859692535853
+      m16_AttackFX_10: -630463894844237332
+      m16_AttackFX_11: 3868910426210995386
+      m16_AttackFX_12: 1108911527722570987
+      m16_AttackFX_13: 5898752233534815348
+      m16_AttackFX_14: -8855764112336642048
+      m16_AttackFX_15: 4822167521740251836
+      m16_AttackFX_16: 6691960909635266593
+      m16_AttackFX_17: 7753956640502935144
+      m16_AttackFX_18: -7762356040417920997
+      m16_AttackFX_19: 3998930106045993399
+      m16_AttackFX_2: 4344790971379686886
+      m16_AttackFX_3: 1793663666549019527
+      m16_AttackFX_4: -6035380641236636007
+      m16_AttackFX_5: -2206861542363474322
+      m16_AttackFX_6: -3630257077611049521
+      m16_AttackFX_7: 5105461345458454534
+      m16_AttackFX_8: 7946609854862630636
+      m16_AttackFX_9: 1466030902674584339
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

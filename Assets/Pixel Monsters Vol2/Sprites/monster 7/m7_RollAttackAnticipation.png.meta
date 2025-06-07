@@ -1,0 +1,902 @@
+fileFormatVersion: 2
+guid: a1d4f7e583faf3142baeefb60259c73c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4680354442879027963
+    second: m7_RollAttackAnticipation_0
+  - first:
+      213: 7934437785959162289
+    second: m7_RollAttackAnticipation_1
+  - first:
+      213: 6265273112476227385
+    second: m7_RollAttackAnticipation_2
+  - first:
+      213: 8889641054211591256
+    second: m7_RollAttackAnticipation_3
+  - first:
+      213: -3504926293498713541
+    second: m7_RollAttackAnticipation_4
+  - first:
+      213: -6903576357339210042
+    second: m7_RollAttackAnticipation_5
+  - first:
+      213: 4127247001025317421
+    second: m7_RollAttackAnticipation_6
+  - first:
+      213: -2962119423333484010
+    second: m7_RollAttackAnticipation_7
+  - first:
+      213: -2785590646354428962
+    second: m7_RollAttackAnticipation_8
+  - first:
+      213: 8499781154562587563
+    second: m7_RollAttackAnticipation_9
+  - first:
+      213: 3908939394063893707
+    second: m7_RollAttackAnticipation_10
+  - first:
+      213: -501855511526538024
+    second: m7_RollAttackAnticipation_11
+  - first:
+      213: -7436776596202851920
+    second: m7_RollAttackAnticipation_12
+  - first:
+      213: -1640610552582685513
+    second: m7_RollAttackAnticipation_13
+  - first:
+      213: -2844948830953796257
+    second: m7_RollAttackAnticipation_14
+  - first:
+      213: 8806819059772711487
+    second: m7_RollAttackAnticipation_15
+  - first:
+      213: -4023245492951815045
+    second: m7_RollAttackAnticipation_16
+  - first:
+      213: -1382690081573786140
+    second: m7_RollAttackAnticipation_17
+  - first:
+      213: 8857292370101719776
+    second: m7_RollAttackAnticipation_18
+  - first:
+      213: 603991480454057828
+    second: m7_RollAttackAnticipation_19
+  - first:
+      213: 2360962823991777561
+    second: m7_RollAttackAnticipation_20
+  - first:
+      213: 2098972657640406378
+    second: m7_RollAttackAnticipation_21
+  - first:
+      213: 5029793296508085162
+    second: m7_RollAttackAnticipation_22
+  - first:
+      213: -5597519270542042279
+    second: m7_RollAttackAnticipation_23
+  - first:
+      213: 291308113823541682
+    second: m7_RollAttackAnticipation_24
+  - first:
+      213: 6879789104552613332
+    second: m7_RollAttackAnticipation_25
+  - first:
+      213: -6941959599798030006
+    second: m7_RollAttackAnticipation_26
+  - first:
+      213: 4116699668770521368
+    second: m7_RollAttackAnticipation_27
+  - first:
+      213: -7615180298426410314
+    second: m7_RollAttackAnticipation_28
+  - first:
+      213: -8232246652369948865
+    second: m7_RollAttackAnticipation_29
+  - first:
+      213: 2150730867789460490
+    second: m7_RollAttackAnticipation_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50536498e6a0c0fb0800000000000000
+      internalID: -4680354442879027963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 396
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1688cb029cc1e60800000000000000
+      internalID: 7934437785959162289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 396
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93793f173b8b2f650800000000000000
+      internalID: 6265273112476227385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_3
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 396
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cc20180795e5b70800000000000000
+      internalID: 8889641054211591256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_4
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 396
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a25102b100c5fc0800000000000000
+      internalID: -3504926293498713541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_5
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 396
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ced20531e19130a0800000000000000
+      internalID: -6903576357339210042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_6
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 396
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a0964c74de64930800000000000000
+      internalID: 4127247001025317421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_7
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 396
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a3ce5141074e6d0800000000000000
+      internalID: -2962119423333484010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbb46ad0189759d0800000000000000
+      internalID: -2785590646354428962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 264
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab33422de945f570800000000000000
+      internalID: 8499781154562587563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_10
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 264
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc485bf1ba75f3630800000000000000
+      internalID: 3908939394063893707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_11
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 264
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d483ea321d0909f0800000000000000
+      internalID: -501855511526538024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_12
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 264
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1f36566134bc890800000000000000
+      internalID: -7436776596202851920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_13
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 264
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc3d8e05616b39e0800000000000000
+      internalID: -1640610552582685513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_14
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 264
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d06d68c16b488d0800000000000000
+      internalID: -2844948830953796257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_15
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 264
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3264ea364b183a70800000000000000
+      internalID: 8806819059772711487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c6a6c4a8f8a28c0800000000000000
+      internalID: -4023245492951815045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_17
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 132
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eda65552b2bfcce0800000000000000
+      internalID: -1382690081573786140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_18
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 132
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2d0bf8b7c6bea70800000000000000
+      internalID: 8857292370101719776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_19
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 132
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f83d72d0fc16800800000000000000
+      internalID: 603991480454057828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_20
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 132
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919dee3fd23d3c020800000000000000
+      internalID: 2360962823991777561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_21
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 132
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6df9e3e28c012d10800000000000000
+      internalID: 2098972657640406378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_22
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 132
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3610caa5a6dc540800000000000000
+      internalID: 5029793296508085162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_23
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 132
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b10ff51ed9152b0800000000000000
+      internalID: -5597519270542042279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b924a4af2fea0400800000000000000
+      internalID: 291308113823541682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_25
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5167a6dbbe97f50800000000000000
+      internalID: 6879789104552613332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_26
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41fce8268439af90800000000000000
+      internalID: -6941959599798030006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_27
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811090c9984712930800000000000000
+      internalID: 4116699668770521368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_28
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba9db39dd1715690800000000000000
+      internalID: -7615180298426410314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_29
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f2716394f21cd80800000000000000
+      internalID: -8232246652369948865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7_RollAttackAnticipation_30
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 180
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04fe06445ee8dd10800000000000000
+      internalID: 2150730867789460490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      m7_RollAttackAnticipation_0: -4680354442879027963
+      m7_RollAttackAnticipation_1: 7934437785959162289
+      m7_RollAttackAnticipation_10: 3908939394063893707
+      m7_RollAttackAnticipation_11: -501855511526538024
+      m7_RollAttackAnticipation_12: -7436776596202851920
+      m7_RollAttackAnticipation_13: -1640610552582685513
+      m7_RollAttackAnticipation_14: -2844948830953796257
+      m7_RollAttackAnticipation_15: 8806819059772711487
+      m7_RollAttackAnticipation_16: -4023245492951815045
+      m7_RollAttackAnticipation_17: -1382690081573786140
+      m7_RollAttackAnticipation_18: 8857292370101719776
+      m7_RollAttackAnticipation_19: 603991480454057828
+      m7_RollAttackAnticipation_2: 6265273112476227385
+      m7_RollAttackAnticipation_20: 2360962823991777561
+      m7_RollAttackAnticipation_21: 2098972657640406378
+      m7_RollAttackAnticipation_22: 5029793296508085162
+      m7_RollAttackAnticipation_23: -5597519270542042279
+      m7_RollAttackAnticipation_24: 291308113823541682
+      m7_RollAttackAnticipation_25: 6879789104552613332
+      m7_RollAttackAnticipation_26: -6941959599798030006
+      m7_RollAttackAnticipation_27: 4116699668770521368
+      m7_RollAttackAnticipation_28: -7615180298426410314
+      m7_RollAttackAnticipation_29: -8232246652369948865
+      m7_RollAttackAnticipation_3: 8889641054211591256
+      m7_RollAttackAnticipation_30: 2150730867789460490
+      m7_RollAttackAnticipation_4: -3504926293498713541
+      m7_RollAttackAnticipation_5: -6903576357339210042
+      m7_RollAttackAnticipation_6: 4127247001025317421
+      m7_RollAttackAnticipation_7: -2962119423333484010
+      m7_RollAttackAnticipation_8: -2785590646354428962
+      m7_RollAttackAnticipation_9: 8499781154562587563
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,601 @@
+fileFormatVersion: 2
+guid: fdc5a67665c7e01449dfd46bc7b58bfe
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014game interface design with buttons_6004141_0"
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1296
+        width: 747
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283a8f6a8a7a9434ea477b667258035a
+      internalID: 1159509747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014game interface design with buttons_6004141_1"
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1296
+        width: 747
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b770474d4063f6c4a9668350920e16a7
+      internalID: -1769539960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014game interface design with buttons_6004141_2"
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1043
+        width: 202
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96eb9c4bd31f73d48a86d7ec24c9245b
+      internalID: 515962018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014game interface design with buttons_6004141_3"
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1043
+        width: 218
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50620b00e91f1fd4d97dde853a457674
+      internalID: 765811669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014game interface design with buttons_6004141_4"
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 776
+        width: 570
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7fded75bc2c5448ac7250de265631b
+      internalID: -1150583414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014game interface design with buttons_6004141_5"
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 836
+        width: 804
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4182a264a99767e42a69ac50fd8764d2
+      internalID: -230768757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014game interface design with buttons_6004141_6"
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 636
+        width: 570
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113dfc9cadd03dc4cb6b01ab58c3fd43
+      internalID: -1141962306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014game interface design with buttons_6004141_7"
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 636
+        width: 804
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79dff7f659d0a4e48b2405d32429e4f8
+      internalID: -459839804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014game interface design with buttons_6004141_8"
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 41
+        width: 127
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041d84f3708aa3e499641feef8b83c94
+      internalID: 655864341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014game interface design with buttons_6004141_9"
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 41
+        width: 127
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6465f7660a70dd84ab777efdbbf28cae
+      internalID: -1093687481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014game interface design with buttons_6004141_10"
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 41
+        width: 127
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a48fbdeac1003b459b174b6511f60db
+      internalID: -1957663244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014game interface design with buttons_6004141_11"
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 41
+        width: 126
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5825272effce5754d8c454cbbaa00b5a
+      internalID: -2084341244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014game interface design with buttons_6004141_12"
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 436
+        width: 804
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d69d3c95f2129046bf4f6b7cbaf4540
+      internalID: -2009512512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014game interface design with buttons_6004141_13"
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 236
+        width: 804
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1573387e30b064d814d405a697ad55
+      internalID: 2032817500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014game interface design with buttons_6004141_14"
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 37
+        width: 804
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffac8a69814ea634da4051f0c25244b7
+      internalID: 1029548406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014game interface design with buttons_6004141_15"
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1038
+        width: 217
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c86a23cc20ab774c8d77bdab6e65135
+      internalID: -1634398608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014game interface design with buttons_6004141_16"
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1043
+        width: 225
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641e4260a35ee2a44a86e21044773408
+      internalID: -2025594172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -35, y: -530}
+      - {x: -62, y: -557}
+      - {x: -62, y: -725}
+      - {x: 729, y: -725}
+      - {x: 746, y: -708}
+      - {x: 746, y: -559}
+      - {x: 737, y: -530}
+    - - {x: -681, y: -183}
+      - {x: -681, y: -715}
+      - {x: -672, y: -721}
+      - {x: -554, y: -721}
+      - {x: -550, y: -720}
+      - {x: -550, y: -183}
+    - - {x: -540, y: -183}
+      - {x: -540, y: -721}
+      - {x: -428, y: -721}
+      - {x: -409, y: -713}
+      - {x: -409, y: -216}
+      - {x: -424, y: -183}
+    - - {x: -403, y: -183}
+      - {x: -403, y: -721}
+      - {x: -290, y: -721}
+      - {x: -288, y: -719}
+      - {x: -272, y: -688}
+      - {x: -272, y: -189}
+      - {x: -298, y: -183}
+    - - {x: -262, y: -183}
+      - {x: -262, y: -721}
+      - {x: -146, y: -721}
+      - {x: -132, y: -715}
+      - {x: -132, y: -200}
+      - {x: -150, y: -183}
+    - - {x: -60, y: -330}
+      - {x: -62, y: -333}
+      - {x: -62, y: -483}
+      - {x: -51, y: -524}
+      - {x: -50, y: -526}
+      - {x: 746, y: -526}
+      - {x: 746, y: -330}
+    - - {x: -52, y: -130}
+      - {x: -62, y: -160}
+      - {x: -62, y: -298}
+      - {x: -27, y: -326}
+      - {x: 728, y: -326}
+      - {x: 746, y: -321}
+      - {x: 746, y: -137}
+      - {x: 745, y: -130}
+    - - {x: -684, y: 4}
+      - {x: -684, y: -119}
+      - {x: -679, y: -126}
+      - {x: -110, y: -126}
+      - {x: -110, y: 4}
+    - - {x: -7, y: 70}
+      - {x: -37, y: 69}
+      - {x: -62, y: 23}
+      - {x: -62, y: -104}
+      - {x: -46, y: -126}
+      - {x: 746, y: -126}
+      - {x: 746, y: 41}
+      - {x: 718, y: 70}
+    - - {x: -679, y: 145}
+      - {x: -684, y: 127}
+      - {x: -684, y: 33}
+      - {x: -654, y: 14}
+      - {x: -135, y: 14}
+      - {x: -110, y: 44}
+      - {x: -110, y: 122}
+      - {x: -141, y: 145}
+    - - {x: -62, y: 270}
+      - {x: -62, y: 74}
+      - {x: 746, y: 74}
+      - {x: 746, y: 241}
+      - {x: 731, y: 270}
+    - - {x: -524, y: 502}
+      - {x: -567, y: 461}
+      - {x: -567, y: 281}
+      - {x: -131, y: 281}
+      - {x: -130, y: 282}
+      - {x: -130, y: 439}
+      - {x: -160, y: 502}
+    - - {x: 178, y: 502}
+      - {x: 148, y: 447}
+      - {x: 148, y: 309}
+      - {x: 166, y: 281}
+      - {x: 585, y: 281}
+      - {x: 585, y: 465}
+      - {x: 565, y: 502}
+    - - {x: 721, y: 697}
+      - {x: 58, y: 697}
+      - {x: 35, y: 687}
+      - {x: 25, y: 679}
+      - {x: -30, y: 697}
+      - {x: -713, y: 697}
+      - {x: -741, y: 661}
+      - {x: -741, y: 576}
+      - {x: -736, y: 557}
+      - {x: -698, y: 534}
+      - {x: 733, y: 534}
+      - {x: 759, y: 571}
+      - {x: 759, y: 665}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "\u2014Pngtree\u2014game interface design with buttons_6004141_0": 1159509747
+      "\u2014Pngtree\u2014game interface design with buttons_6004141_1": -1769539960
+      "\u2014Pngtree\u2014game interface design with buttons_6004141_10": -1957663244
+      "\u2014Pngtree\u2014game interface design with buttons_6004141_11": -2084341244
+      "\u2014Pngtree\u2014game interface design with buttons_6004141_12": -2009512512
+      "\u2014Pngtree\u2014game interface design with buttons_6004141_13": 2032817500
+      "\u2014Pngtree\u2014game interface design with buttons_6004141_14": 1029548406
+      "\u2014Pngtree\u2014game interface design with buttons_6004141_15": -1634398608
+      "\u2014Pngtree\u2014game interface design with buttons_6004141_16": -2025594172
+      "\u2014Pngtree\u2014game interface design with buttons_6004141_2": 515962018
+      "\u2014Pngtree\u2014game interface design with buttons_6004141_3": 765811669
+      "\u2014Pngtree\u2014game interface design with buttons_6004141_4": -1150583414
+      "\u2014Pngtree\u2014game interface design with buttons_6004141_5": -230768757
+      "\u2014Pngtree\u2014game interface design with buttons_6004141_6": -1141962306
+      "\u2014Pngtree\u2014game interface design with buttons_6004141_7": -459839804
+      "\u2014Pngtree\u2014game interface design with buttons_6004141_8": 655864341
+      "\u2014Pngtree\u2014game interface design with buttons_6004141_9": -1093687481
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

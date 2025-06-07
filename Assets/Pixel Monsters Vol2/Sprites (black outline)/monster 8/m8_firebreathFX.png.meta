@@ -1,0 +1,1102 @@
+fileFormatVersion: 2
+guid: b97f040f7c5382f4395222265e659cee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 959817792879551653
+    second: m8_firebreathFX_0
+  - first:
+      213: -2067100799591456403
+    second: m8_firebreathFX_1
+  - first:
+      213: 827495124919258632
+    second: m8_firebreathFX_2
+  - first:
+      213: -4582260587293620741
+    second: m8_firebreathFX_3
+  - first:
+      213: -7583354914687571068
+    second: m8_firebreathFX_4
+  - first:
+      213: 8473272894359407900
+    second: m8_firebreathFX_5
+  - first:
+      213: 8111626720611545948
+    second: m8_firebreathFX_6
+  - first:
+      213: 6507287297849688522
+    second: m8_firebreathFX_7
+  - first:
+      213: 6852190069311655670
+    second: m8_firebreathFX_8
+  - first:
+      213: 6500905241004600830
+    second: m8_firebreathFX_9
+  - first:
+      213: 7250987412156204115
+    second: m8_firebreathFX_10
+  - first:
+      213: -4685131472683454176
+    second: m8_firebreathFX_11
+  - first:
+      213: -5052680939389543745
+    second: m8_firebreathFX_12
+  - first:
+      213: 2598438600907026759
+    second: m8_firebreathFX_13
+  - first:
+      213: -4812071465717650287
+    second: m8_firebreathFX_14
+  - first:
+      213: 863196491012298291
+    second: m8_firebreathFX_15
+  - first:
+      213: -4933178070782560714
+    second: m8_firebreathFX_16
+  - first:
+      213: -5201151187450987269
+    second: m8_firebreathFX_17
+  - first:
+      213: -9220288187952728097
+    second: m8_firebreathFX_18
+  - first:
+      213: 2373963686875198503
+    second: m8_firebreathFX_19
+  - first:
+      213: 7040896736243226362
+    second: m8_firebreathFX_20
+  - first:
+      213: 3294393947178549522
+    second: m8_firebreathFX_21
+  - first:
+      213: -849499697816344274
+    second: m8_firebreathFX_22
+  - first:
+      213: -5930943943862376303
+    second: m8_firebreathFX_23
+  - first:
+      213: -4734940516816609975
+    second: m8_firebreathFX_24
+  - first:
+      213: 2746825187618521048
+    second: m8_firebreathFX_25
+  - first:
+      213: 2049242650541914498
+    second: m8_firebreathFX_26
+  - first:
+      213: -4668467976309472056
+    second: m8_firebreathFX_27
+  - first:
+      213: -3840796978567201487
+    second: m8_firebreathFX_28
+  - first:
+      213: 3056393328800278656
+    second: m8_firebreathFX_29
+  - first:
+      213: 299376739209380393
+    second: m8_firebreathFX_30
+  - first:
+      213: -3185378550472257162
+    second: m8_firebreathFX_31
+  - first:
+      213: -5347192830457038821
+    second: m8_firebreathFX_32
+  - first:
+      213: 7222212444104356856
+    second: m8_firebreathFX_33
+  - first:
+      213: 6735152908421656260
+    second: m8_firebreathFX_34
+  - first:
+      213: -3765006741648098513
+    second: m8_firebreathFX_35
+  - first:
+      213: -9131068299536890427
+    second: m8_firebreathFX_36
+  - first:
+      213: -5186019227596142891
+    second: m8_firebreathFX_37
+  - first:
+      213: -669826363177168466
+    second: m8_firebreathFX_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m8_firebreathFX_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a46fa18235f15d00800000000000000
+      internalID: 959817792879551653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 300
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61ec6556ce2053e0800000000000000
+      internalID: -2067100799591456403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 300
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e0e2e8e6adb7b00800000000000000
+      internalID: 827495124919258632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_3
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 300
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf54712164a8860c0800000000000000
+      internalID: -4582260587293620741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_4
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 300
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ba55822e282c690800000000000000
+      internalID: -7583354914687571068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_5
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 300
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d0d39ddcc179570800000000000000
+      internalID: 8473272894359407900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_6
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 300
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c533e907689429070800000000000000
+      internalID: 8111626720611545948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_7
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 300
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac10ebff1578e4a50800000000000000
+      internalID: 6507287297849688522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_8
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 300
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fec7c6409ed71f50800000000000000
+      internalID: 6852190069311655670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_9
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 300
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efded889fdad73a50800000000000000
+      internalID: 6500905241004600830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354466c42aea0a460800000000000000
+      internalID: 7250987412156204115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_11
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 200
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02133bc9fb11bfeb0800000000000000
+      internalID: -4685131472683454176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_12
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 200
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba9c44b47541e9b0800000000000000
+      internalID: -5052680939389543745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_13
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 200
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741f9b1f3228f0420800000000000000
+      internalID: 2598438600907026759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_14
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 200
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c2b145f76183db0800000000000000
+      internalID: -4812071465717650287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_15
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 200
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336d62a92a0bafb00800000000000000
+      internalID: 863196491012298291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_16
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 200
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63632458ea4d98bb0800000000000000
+      internalID: -4933178070782560714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_17
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 200
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcf1e84d8cc1d7b0800000000000000
+      internalID: -5201151187450987269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_18
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 200
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7f8568eb4fa0080800000000000000
+      internalID: -9220288187952728097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_19
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 200
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7247fd9356302f020800000000000000
+      internalID: 2373963686875198503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af61cfff64a46b160800000000000000
+      internalID: 7040896736243226362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_21
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 100
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21146cb27d908bd20800000000000000
+      internalID: 3294393947178549522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_22
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 100
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29ead29688f534f0800000000000000
+      internalID: -849499697816344274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_23
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 100
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198245318ed01bda0800000000000000
+      internalID: -5930943943862376303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_24
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 100
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d9a8ecfac1a4eb0800000000000000
+      internalID: -4734940516816609975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_25
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 100
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dff81074feae1620800000000000000
+      internalID: 2746825187618521048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_26
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 100
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2897124555f507c10800000000000000
+      internalID: 2049242650541914498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_27
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 100
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c489c23c15463fb0800000000000000
+      internalID: -4668467976309472056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_28
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 100
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dbb165f7fb2bac0800000000000000
+      internalID: -3840796978567201487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_29
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 100
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088a3010a8d7a6a20800000000000000
+      internalID: 3056393328800278656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9220792ee89972400800000000000000
+      internalID: 299376739209380393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_31
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671d3ffc5134bc3d0800000000000000
+      internalID: -3185378550472257162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_32
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18b71b8374fac5b0800000000000000
+      internalID: -5347192830457038821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_33
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3fe37f3f37a3460800000000000000
+      internalID: 7222212444104356856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_34
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce6966c2e1187d50800000000000000
+      internalID: 6735152908421656260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_35
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b3d1bf05200cbc0800000000000000
+      internalID: -3765006741648098513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_36
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5064292cde74180800000000000000
+      internalID: -9131068299536890427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_37
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 0
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d649cc3dfe8708b0800000000000000
+      internalID: -5186019227596142891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8_firebreathFX_38
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea112a9b87c44b6f0800000000000000
+      internalID: -669826363177168466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      m8_firebreathFX_0: 959817792879551653
+      m8_firebreathFX_1: -2067100799591456403
+      m8_firebreathFX_10: 7250987412156204115
+      m8_firebreathFX_11: -4685131472683454176
+      m8_firebreathFX_12: -5052680939389543745
+      m8_firebreathFX_13: 2598438600907026759
+      m8_firebreathFX_14: -4812071465717650287
+      m8_firebreathFX_15: 863196491012298291
+      m8_firebreathFX_16: -4933178070782560714
+      m8_firebreathFX_17: -5201151187450987269
+      m8_firebreathFX_18: -9220288187952728097
+      m8_firebreathFX_19: 2373963686875198503
+      m8_firebreathFX_2: 827495124919258632
+      m8_firebreathFX_20: 7040896736243226362
+      m8_firebreathFX_21: 3294393947178549522
+      m8_firebreathFX_22: -849499697816344274
+      m8_firebreathFX_23: -5930943943862376303
+      m8_firebreathFX_24: -4734940516816609975
+      m8_firebreathFX_25: 2746825187618521048
+      m8_firebreathFX_26: 2049242650541914498
+      m8_firebreathFX_27: -4668467976309472056
+      m8_firebreathFX_28: -3840796978567201487
+      m8_firebreathFX_29: 3056393328800278656
+      m8_firebreathFX_3: -4582260587293620741
+      m8_firebreathFX_30: 299376739209380393
+      m8_firebreathFX_31: -3185378550472257162
+      m8_firebreathFX_32: -5347192830457038821
+      m8_firebreathFX_33: 7222212444104356856
+      m8_firebreathFX_34: 6735152908421656260
+      m8_firebreathFX_35: -3765006741648098513
+      m8_firebreathFX_36: -9131068299536890427
+      m8_firebreathFX_37: -5186019227596142891
+      m8_firebreathFX_38: -669826363177168466
+      m8_firebreathFX_4: -7583354914687571068
+      m8_firebreathFX_5: 8473272894359407900
+      m8_firebreathFX_6: 8111626720611545948
+      m8_firebreathFX_7: 6507287297849688522
+      m8_firebreathFX_8: 6852190069311655670
+      m8_firebreathFX_9: 6500905241004600830
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
