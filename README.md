@@ -67,7 +67,7 @@ Here’s a short demo of how AI works with obstacle in motion:
 ### Play from GitHub Repository
 
 1. **Fork** or **Clone** this repository to your local machine:
-   git clone https://github.com/your-username/Digital-Escape.git
+   git clone https://github.com/pigchun/Digital-Escape.git
 
 2.   Open Unity Hub (Unity 2022.3 or later)
 
