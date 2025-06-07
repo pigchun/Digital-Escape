@@ -35,7 +35,9 @@
 📽️ **Watch in action**  
 Here’s a short demo of how AI works with obstacle in motion:
 
-![Gameplay Demo](./Assets/Screenshots/AI_pathfinder.gif)
+![AI Demo](./Assets/Screenshots/AI_pathfinder.gif)
+![Gameplay Demo](./Assets/Screenshots/Gameplay.gif)
+
 
 - **Controls**
   - `WASD` or Arrow keys to move
