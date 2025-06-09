@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
 {
     // ====== 子弹与射击 ======
     [Header("Shooting Settings")]
+    private int bulletCount = 0;
+
     public GameObject m7Spike;
     public Transform firePoint;
     public float bulletSpeed = 10f;
@@ -20,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     public float clipPlayDuration = 0.3f;
 
     private Coroutine soundStopCoroutine;
+    private AudioSource shootAudioSource; // ✅ 射击专用 AudioSource
 
 
     // ====== 移动速度设置 ======
@@ -40,12 +43,12 @@ public class PlayerMovement : MonoBehaviour
     [Range(0f, 1f)] public float footstepVolume = 0.6f;
 
     private float footstepTimer;
+    private AudioSource footstepAudioSource; // ✅ 脚步声专用 AudioSource
 
 
     // ====== 状态与组件 ======
     private Rigidbody2D rb;
     private Animator animator;
-    private AudioSource audioSource;
 
     private Vector2 moveInput;
     private Vector2 lastMoveDirection;
@@ -57,13 +60,14 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
-        // 保证 AudioSource 存在
-        audioSource = GetComponent<AudioSource>();
-        if (audioSource == null)
-            audioSource = gameObject.AddComponent<AudioSource>();
+        // ✅ 创建两个 AudioSource
+        shootAudioSource = gameObject.AddComponent<AudioSource>();
+        shootAudioSource.playOnAwake = false;
+        shootAudioSource.loop = false;
 
-        audioSource.playOnAwake = false;
-        audioSource.loop = false;
+        footstepAudioSource = gameObject.AddComponent<AudioSource>();
+        footstepAudioSource.playOnAwake = false;
+        footstepAudioSource.loop = false;
     }
 
 
@@ -78,16 +82,8 @@ public class PlayerMovement : MonoBehaviour
     {
         bool isShooting = animator.GetBool("Shooting");
 
-        if (!isShooting)
-        {
-            rb.velocity = moveInput != Vector2.zero ? moveInput * currentSpeed : Vector2.zero;
-        }
-        else
-        {
-            rb.velocity = Vector2.zero; // 射击时禁止移动
-        }
+        rb.velocity = isShooting ? Vector2.zero : moveInput * currentSpeed;
     }
-
 
     // ====== 移动逻辑 ======
     private void HandleMovementInput()
@@ -118,7 +114,6 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("isRunning", isRunning && moveInput != Vector2.zero);
     }
 
-
     // ====== 射击逻辑 ======
     private void HandleShootingInput()
     {
@@ -127,17 +122,15 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            PlayShootSound(); // 播放音效（从头）
+            PlayShootSound();
         }
 
         if (Input.GetMouseButton(0))
         {
-            // 动画持续播放
             animator.SetBool("Shooting", true);
             animator.SetFloat("ShootingX", shootDir.x);
             animator.SetFloat("ShootingY", shootDir.y);
 
-            // ✅ 持续发射（根据 cooldown 限制）
             if (Time.time - lastShootTime >= shootCooldown)
             {
                 Shoot(shootDir);
@@ -146,12 +139,10 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            // 松开时停止动画与音效
             animator.SetBool("Shooting", false);
-            audioSource.Stop();
+            shootAudioSource.Stop();
         }
     }
-
 
     private void Shoot(Vector2 direction)
     {
@@ -160,16 +151,19 @@ public class PlayerMovement : MonoBehaviour
 
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.velocity = direction.normalized * bulletSpeed;
+
+        bulletCount++;
+        Debug.Log("🧨 Bullets fired: " + bulletCount);
     }
 
     private void PlayShootSound()
     {
         if (shootClip == null) return;
 
-        audioSource.clip = shootClip;
-        audioSource.volume = shootVolume;
-        audioSource.time = 0f;
-        audioSource.Play();
+        shootAudioSource.clip = shootClip;
+        shootAudioSource.volume = shootVolume;
+        shootAudioSource.time = 0f;
+        shootAudioSource.Play();
 
         if (soundStopCoroutine != null)
             StopCoroutine(soundStopCoroutine);
@@ -180,14 +174,11 @@ public class PlayerMovement : MonoBehaviour
     private IEnumerator StopAudioAfterSeconds(float seconds)
     {
         yield return new WaitForSeconds(seconds);
-
-        // 如果玩家没持续按住鼠标，强制停止
         if (!Input.GetMouseButton(0))
-            audioSource.Stop();
+            shootAudioSource.Stop();
     }
 
-
-    // ====== 脚步声 ======
+    // ====== 脚步声逻辑 ======
     private void HandleFootstepSound()
     {
         if (animator.GetBool("Shooting") || moveInput == Vector2.zero || footstepClip == null)
@@ -201,8 +192,8 @@ public class PlayerMovement : MonoBehaviour
 
         if (footstepTimer >= interval)
         {
-            audioSource.pitch = Random.Range(footstepPitchMin, footstepPitchMax);
-            audioSource.PlayOneShot(footstepClip, footstepVolume);
+            footstepAudioSource.pitch = Random.Range(footstepPitchMin, footstepPitchMax);
+            footstepAudioSource.PlayOneShot(footstepClip, footstepVolume);
             footstepTimer = 0f;
         }
     }
