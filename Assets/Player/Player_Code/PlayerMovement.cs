@@ -5,6 +5,14 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D), typeof(Animator))]
 public class PlayerMovement : MonoBehaviour
 {
+    /* ======= 子弹相关 ======= */
+    public GameObject m7Spike;       // 你的子弹 prefab
+    public Transform firePoint;      // 发射点（拖拽一个空物体）
+    public float bulletSpeed = 10f;
+
+    private float shootCooldown = 0.2f;
+    private float lastShootTime = 0f;
+
     /* ======= 速度相关 ======= */
     public float walkSpeed = 5f;
     public float runSpeed = 8f;
@@ -80,12 +88,17 @@ public class PlayerMovement : MonoBehaviour
         /* ========== 射击相关 ========== */
         Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 shootDir = (mouseWorldPos - (Vector2)transform.position).normalized;
-
-        if (Input.GetMouseButton(0)) // 鼠标左键按住
+        if (Input.GetMouseButton(0))
         {
             animator.SetBool("Shooting", true);
             animator.SetFloat("ShootingX", shootDir.x);
             animator.SetFloat("ShootingY", shootDir.y);
+
+            if (Time.time - lastShootTime >= shootCooldown)
+            {
+                Shoot(shootDir);
+                lastShootTime = Time.time;
+            }
         }
         else
         {
@@ -114,7 +127,7 @@ public class PlayerMovement : MonoBehaviour
 
 
     /* -------- 脚步声函数 -------- */
-    
+
     private void HandleFootstepSound()
     {
         // 🔒 如果在射击状态，不播放脚步声
@@ -136,4 +149,20 @@ public class PlayerMovement : MonoBehaviour
     }
 
     /* -------------------------- */
+    
+
+    void Shoot(Vector2 direction)
+    {
+        // 计算朝向角度（以Z轴为主）
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+        // 实例化时带旋转角度（z朝向）
+        GameObject bullet = Instantiate(m7Spike, firePoint.position, Quaternion.Euler(0f, 0f, angle));
+
+        // 发射子弹
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        rb.velocity = direction.normalized * bulletSpeed;
+    }
+
+
 }
