@@ -7,21 +7,21 @@ public class PlayerMovement : MonoBehaviour
 {
     /* ======= 速度相关 ======= */
     public float walkSpeed = 5f;
-    public float runSpeed  = 8f;
+    public float runSpeed = 8f;
     private float currentSpeed;
 
     /* ======= 组件与状态 ======= */
     private Rigidbody2D rb;
-    private Animator   animator;
-    private Vector2    moveInput;
-    private Vector2    lastMoveDirection;
-    private bool       isRunning;
+    private Animator animator;
+    private Vector2 moveInput;
+    private Vector2 lastMoveDirection;
+    private bool isRunning;
 
     /* ======= 脚步声设置 ======= */
     [Header("Footstep Sound")]
     public AudioClip footstepClip;
     public float footstepIntervalWalk = 0.45f;
-    public float footstepIntervalRun  = 0.30f;
+    public float footstepIntervalRun = 0.30f;
 
     [Range(0.5f, 1.5f)]
     public float footstepPitchMin = 0.9f;
@@ -33,12 +33,12 @@ public class PlayerMovement : MonoBehaviour
     public float footstepVolume = 0.6f;
 
     private AudioSource audioSource;
-    private float       footstepTimer;
-    /* ========================= */
+    private float footstepTimer;
+
 
     void Start()
     {
-        rb       = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
         /* 自动保证 AudioSource 存在 */
@@ -51,12 +51,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        /* ===== 输入与动画 ===== */
+        /* ========== 移动相关 ========== */
         moveInput.x = Input.GetAxisRaw("Horizontal");
         moveInput.y = Input.GetAxisRaw("Vertical");
-        moveInput   = moveInput.normalized;
+        moveInput = moveInput.normalized;
 
-        isRunning    = Input.GetKey(KeyCode.LeftShift);
+        isRunning = Input.GetKey(KeyCode.LeftShift);
         currentSpeed = isRunning ? runSpeed : walkSpeed;
 
         if (moveInput != Vector2.zero)
@@ -76,21 +76,49 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetBool("isWalking", moveInput != Vector2.zero);
         animator.SetBool("isRunning", isRunning && moveInput != Vector2.zero);
-        /* ====================== */
 
-        HandleFootstepSound();      // 播放脚步声
+        /* ========== 射击相关 ========== */
+        Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 shootDir = (mouseWorldPos - (Vector2)transform.position).normalized;
+
+        if (Input.GetMouseButton(0)) // 鼠标左键按住
+        {
+            animator.SetBool("Shooting", true);
+            animator.SetFloat("ShootingX", shootDir.x);
+            animator.SetFloat("ShootingY", shootDir.y);
+        }
+        else
+        {
+            animator.SetBool("Shooting", false);
+        }
+
+        /* ========== 脚步声播放 ========== */
+        HandleFootstepSound();
     }
 
     void FixedUpdate()
     {
-        rb.velocity = moveInput != Vector2.zero ? moveInput * currentSpeed
-                                                : Vector2.zero;
+        // 获取当前是否处于射击状态
+        bool isShooting = animator.GetBool("Shooting");
+
+        if (!isShooting)
+        {
+            rb.velocity = moveInput != Vector2.zero ? moveInput * currentSpeed
+                                                    : Vector2.zero;
+        }
+        else
+        {
+            rb.velocity = Vector2.zero; // 禁止移动
+        }
     }
 
+
     /* -------- 脚步声函数 -------- */
+    
     private void HandleFootstepSound()
     {
-        if (moveInput == Vector2.zero || footstepClip == null)
+        // 🔒 如果在射击状态，不播放脚步声
+        if (animator.GetBool("Shooting") || moveInput == Vector2.zero || footstepClip == null)
         {
             footstepTimer = 0f;
             return;
@@ -102,12 +130,10 @@ public class PlayerMovement : MonoBehaviour
         if (footstepTimer >= interval)
         {
             audioSource.pitch = Random.Range(footstepPitchMin, footstepPitchMax);
-
-            /* ★NEW：第二个参数是音量系数 */
             audioSource.PlayOneShot(footstepClip, footstepVolume);
-
             footstepTimer = 0f;
         }
     }
+
     /* -------------------------- */
 }

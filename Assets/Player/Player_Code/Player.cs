@@ -66,7 +66,7 @@ public class Player : MonoBehaviour
         //If player completes blue maze
         if (levelType == "ExitBlue" || levelType == "PurpleExit")
         {
-            // 直接用 exitPoint.position，而不是硬编码坐标
+            
             if (exitPoint != null)
                 transform.position = exitPoint.position;
 
@@ -195,107 +195,6 @@ public class Player : MonoBehaviour
             return;
         }
 
-        /*
-        //DOORS AND KEYS FOR BLUE MAZE
-        else if (other.CompareTag("Key 1"))
-        {
-            PickUpKey(other.gameObject, "Door 1");
-        }
-        else if (other.CompareTag("Key 2"))
-        {
-            PickUpKey(other.gameObject, "Door 2");
-        }
-
-        else if (other.CompareTag("Key 3"))
-        {
-            PickUpKey(other.gameObject, "Door 3");
-        }
-
-        else if (other.CompareTag("Key 4"))
-        {
-            PickUpKey(other.gameObject, "Door 4");
-        }
-
-        else if (other.CompareTag("Door 1") && hasKey == true && GameObject.FindWithTag("Door 1").GetComponent<Door>().isOpen == false)
-        {
-            hasKey = false;
-            unlockedDoor1 = true;
-        }
-
-        else if (other.CompareTag("Door 2") && hasKey == true && GameObject.FindWithTag("Door 2").GetComponent<Door>().isOpen == false)
-        {
-            hasKey = false;
-            unlockedDoor2 = true;
-        }
-
-        else if (other.CompareTag("Door 3") && hasKey == true && GameObject.FindWithTag("Door 3").GetComponent<Door>().isOpen == false)
-        {
-            hasKey = false;
-            unlockedDoor3 = true;
-        }
-
-        else if (other.CompareTag("Door 4") && hasKey == true && GameObject.FindWithTag("Door 4").GetComponent<Door>().isOpen == false)
-        {
-            hasKey = false;
-            unlockedDoor4 = true;
-        }
-
-        //DOORS AND KEYS FOR PURPLE MAZE
-        else if (other.CompareTag("Key 5"))
-        {
-            PickUpKey(other.gameObject, "Door 5");
-        }
-        else if (other.CompareTag("Key 6"))
-        {
-            PickUpKey(other.gameObject, "Door 6");
-        }
-
-        else if (other.CompareTag("Key 7"))
-        {
-            PickUpKey(other.gameObject, "Door 7");
-        }
-
-        else if (other.CompareTag("Key 8"))
-        {
-            PickUpKey(other.gameObject, "Door 8");
-        }
-        else if (other.CompareTag("Key 9"))
-        {
-            PickUpKey(other.gameObject, "Door 9");
-        }
-
-        if (other.CompareTag("Door 5") && hasKey == true && GameObject.FindWithTag("Door 5").GetComponent<Door>().isOpen == false)
-        {
-            Debug.Log("Door 5 has opened");
-            hasKey = false;
-            unlockedDoor5 = true;
-            GameObject.FindWithTag("Door 5").GetComponent<Door>().isOpen = true;
-        }
-
-        else if (other.CompareTag("Door 6") && hasKey == true && GameObject.FindWithTag("Door 6").GetComponent<Door>().isOpen == false)
-        {
-            hasKey = false;
-            unlockedDoor6 = true;
-        }
-
-        else if (other.CompareTag("Door 7") && hasKey == true && GameObject.FindWithTag("Door 7").GetComponent<Door>().isOpen == false)
-        {
-            hasKey = false;
-            unlockedDoor7 = true;
-        }
-
-        else if (other.CompareTag("Door 8") && hasKey == true && GameObject.FindWithTag("Door 8").GetComponent<Door>().isOpen == false)
-        {
-            hasKey = false;
-            unlockedDoor8 = true;
-        }
-        else if (other.CompareTag("Door 9") && hasKey == true && GameObject.FindWithTag("Door 9").GetComponent<Door>().isOpen == false)
-        {
-            hasKey = false;
-            unlockedDoor9 = true;
-            GameObject.FindWithTag("Door 9").GetComponent<Door>().isOpen = true;
-        }
-        */
     }
 
     private void buyHeart(GameObject heart)
@@ -352,10 +251,7 @@ public class Player : MonoBehaviour
             AudioSource.PlayClipAtPoint(pickupSound, transform.position);
         }
         Destroy(key); // Destroy the key GameObject
-        //GameObject door = GameObject.FindWithTag(doorNumber);
 
-        //Collider2D doorCollider = door.GetComponent<Collider2D>();
-        //doorCollider.isTrigger = true;
     }
 
     IEnumerator Wait(GameObject clone, int time)
