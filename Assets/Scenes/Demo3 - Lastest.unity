@@ -39141,6 +39141,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 200954387}
     - target: {fileID: 5240488076738258661, guid: c57c2486628649c4a862090308533746, type: 3}
+      propertyPath: shootClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6336a12a55a70c243b8f96689edbfeed, type: 3}
+    - target: {fileID: 5240488076738258661, guid: c57c2486628649c4a862090308533746, type: 3}
       propertyPath: walkSpeed
       value: 1
       objectReference: {fileID: 0}
@@ -39149,8 +39153,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 7904573131c0d3249b22a28d6b3002f2, type: 3}
     - target: {fileID: 5240488076738258661, guid: c57c2486628649c4a862090308533746, type: 3}
+      propertyPath: shootCooldown
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5240488076738258661, guid: c57c2486628649c4a862090308533746, type: 3}
       propertyPath: footstepVolume
       value: 0.507
+      objectReference: {fileID: 0}
+    - target: {fileID: 5240488076738258661, guid: c57c2486628649c4a862090308533746, type: 3}
+      propertyPath: clipPlayDuration
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5240488076738258661, guid: c57c2486628649c4a862090308533746, type: 3}
       propertyPath: footstepIntervalRun
