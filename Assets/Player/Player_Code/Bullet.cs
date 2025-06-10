@@ -25,6 +25,10 @@ public class Bullet : MonoBehaviour
                 Destroy(gameObject); // 可选：加爆炸动画
             }
         }
+        else if (other.CompareTag("Wall"))
+        {
+            Destroy(gameObject);
+        }
     }
 }
 
