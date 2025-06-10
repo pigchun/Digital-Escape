@@ -29,6 +29,7 @@ TagManager:
   - Heart
   - Key 8
   - Dust
+  - Enemy
   layers:
   - Default
   - TransparentFX

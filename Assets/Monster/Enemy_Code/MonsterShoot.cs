@@ -1,142 +1,112 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public enum MonsterState
-{
-    Idle,
-    Attacking,
-    Cooldown
-}
-
-[RequireComponent(typeof(Collider2D))]
 public class MonsterShoot : MonoBehaviour
 {
+    [Header("Shooting Settings")]
     public GameObject bulletPrefab;
     public Transform firePoint;
-    public float cooldownTime = 2f;
-    public Animator animator;
+    public float shootCooldown = 1f;
+    public float bulletSpeed = 5f;
 
-    public AudioClip shootClip;        // 拖一个音效进来
-    public AudioSource audioSource;    // 怪物或空物体上的 AudioSource
+    private Collider2D detectionCollider;
+    private float lastShootTime = 0f;
+    private Transform player;
 
-    [Header("Pitch Range")]
-    public float pitchMin = 0.95f;
-    public float pitchMax = 1.05f;
-
-    private bool playerInRange = false;
-    private float cooldownTimer = 0f;
-    private MonsterState state = MonsterState.Idle;
-
-    // 缓存本对象的 2D 触发器
-    Collider2D detectionCollider;
+    private Animator animator;
 
     void Awake()
     {
-        detectionCollider = GetComponent<Collider2D>();
-        // 确保 Collider2D 已经设置为 Is Trigger
-        detectionCollider.isTrigger = true;
+        // ✅ 获取 DetectionZone 子物体
+        Transform detectionZone = transform.Find("DetectionZone");
+        if (detectionZone != null)
+        {
+            detectionCollider = detectionZone.GetComponent<Collider2D>();
+            detectionCollider.isTrigger = true;
+        }
+        else
+        {
+            Debug.LogWarning("❗ DetectionZone not found!");
+        }
+
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        switch (state)
+        // ✅ 如果检测到玩家，并且冷却时间到了，就播放攻击动画
+        if (player != null && Time.time - lastShootTime >= shootCooldown)
         {
-            case MonsterState.Idle:
-                if (playerInRange)
-                {
-                    state = MonsterState.Attacking;
-                    animator.SetTrigger("attack");
-                }
-                break;
-
-            case MonsterState.Attacking:
-                if (!playerInRange)
-                {
-                    // 玩家离开攻击范围，打断攻击
-                    animator.ResetTrigger("attack");
-                    state = MonsterState.Idle;
-                }
-                break;
-
-            case MonsterState.Cooldown:
-                cooldownTimer += Time.deltaTime;
-                if (cooldownTimer >= cooldownTime)
-                {
-                    cooldownTimer = 0f;
-                    state = MonsterState.Idle;
-                }
-                break;
+            animator.ResetTrigger("attack");
+            animator.SetTrigger("attack");
+            lastShootTime = Time.time;
         }
     }
 
-    // 动画事件调用：在攻击动画中调用这个函数
+    // ✅ 这个函数由动画事件触发（需绑定到 Attack 动画中）
     public void Shoot()
     {
-        Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+        if (player == null || bulletPrefab == null || firePoint == null)
+            return;
 
-        if (audioSource != null && shootClip != null)
+        Vector2 direction = (player.position - firePoint.position).normalized;
+
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        if (rb != null)
         {
-            audioSource.pitch = Random.Range(pitchMin, pitchMax); // 随机 pitch
-            audioSource.PlayOneShot(shootClip);
+            rb.velocity = direction * bulletSpeed;
         }
+
+        Debug.Log("🔫 MonsterShoot → Shoot() called by animation.");
     }
 
-    // 动画播放完之后调用（也可在 Animator 设置一个 Event）
-    public void OnAttackAnimationFinished()
-    {
-        state = MonsterState.Cooldown;
-    }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-            playerInRange = true;
-    }
-
-    void OnTriggerExit2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
-            playerInRange = false;
+        {
+            player = other.transform;
+            Debug.Log("🧿 Player entered detection range");
+        }
     }
 
-    // —— 以下为新增的 Gizmos 可视化逻辑 —— //
-
-    void OnDrawGizmos()
+    public void OnTriggerExit2D(Collider2D other)
     {
-        // 在 Scene 视图里可视化“玩家检测范围”（2D 触发器的边框）
-        // 如果当前对象没挂 Collider2D，就什么也不画
-        if (detectionCollider == null)
+        if (other.CompareTag("Player") && other.transform == player)
         {
-            detectionCollider = GetComponent<Collider2D>();
-            if (detectionCollider == null) return;
+            player = null;
+            Debug.Log("🧊 Player left detection range");
         }
+    }
 
-        Gizmos.color = new Color(1f, 0f, 0f, 0.8f); // 半透明红色
+    // ✅ 供 DetectionZone 子物体调用（可选使用代理脚本）
+    public void OnPlayerEnter(Transform target)
+    {
+        player = target;
+    }
 
-        // 针对 CircleCollider2D 画圆
-        if (detectionCollider is CircleCollider2D circle)
+    public void OnPlayerExit(Transform target)
+    {
+        if (player == target)
+            player = null;
+    }
+
+    // ✅ 可视化检测范围（Gizmos）
+    void OnDrawGizmosSelected()
+    {
+        Transform zone = transform.Find("DetectionZone");
+        if (zone != null)
         {
-            Vector3 center = transform.position + (Vector3)circle.offset;
-            float radius = circle.radius * Mathf.Max(transform.localScale.x, transform.localScale.y);
-            Gizmos.DrawWireSphere(center, radius);
-        }
-        // 针对 BoxCollider2D 画矩形
-        else if (detectionCollider is BoxCollider2D box)
-        {
-            Vector3 center = transform.position + (Vector3)box.offset;
-            Vector3 size = new Vector3(
-                box.size.x * transform.localScale.x,
-                box.size.y * transform.localScale.y,
-                0f
-            );
-            Gizmos.DrawWireCube(center, size);
-        }
-        // 针对其他 2D Collider（PolygonCollider2D、CapsuleCollider2D 等），画其包围盒
-        else
-        {
-            Bounds bounds = detectionCollider.bounds;
-            Gizmos.DrawWireCube(bounds.center, bounds.size);
+            Collider2D col = zone.GetComponent<Collider2D>();
+            if (col is CircleCollider2D circle)
+            {
+                Gizmos.color = new Color(1f, 0.3f, 0.3f, 0.4f);
+                Gizmos.DrawWireSphere(circle.transform.position, circle.radius * circle.transform.lossyScale.x);
+            }
+            else if (col is BoxCollider2D box)
+            {
+                Gizmos.color = new Color(1f, 0.3f, 0.3f, 0.4f);
+                Gizmos.DrawWireCube(box.transform.position, box.size);
+            }
         }
     }
 }

@@ -2,23 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Bullet : MonoBehaviour
 {
-    public float lifetime = 2f;
+    public int damage = 1;
+    public float lifeTime = 2f;
 
     void Start()
     {
-        Destroy(gameObject, lifetime); // 飞行一段时间后自动销毁
+        Destroy(gameObject, lifeTime);
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        // 判断碰撞目标是否为敌人（示例）
-        if (collision.CompareTag("Enemy"))
+        // ✅ 只处理带有 "Enemy" 标签的物体
+        if (other.CompareTag("Enemy"))
         {
-            Destroy(gameObject);
-            // 你也可以在这里触发敌人受伤逻辑
+            EnemyHealth enemy = other.GetComponent<EnemyHealth>();
+            if (enemy != null)
+            {
+                enemy.TakeDamage(damage);
+                Destroy(gameObject); // 可选：加爆炸动画
+            }
         }
     }
 }
+
 
