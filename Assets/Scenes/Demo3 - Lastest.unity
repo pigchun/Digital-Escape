@@ -39023,10 +39023,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: monster-19
       objectReference: {fileID: 0}
+    - target: {fileID: 3190261217757013979, guid: 30abbf2176365bb45a0adf2540ac8399, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 3821056995571677827, guid: 30abbf2176365bb45a0adf2540ac8399, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 787953954721578229}
+    - target: {fileID: 3821056995571677827, guid: 30abbf2176365bb45a0adf2540ac8399, type: 3}
+      propertyPath: maxHealth
+      value: 134
+      objectReference: {fileID: 0}
     - target: {fileID: 3821056995571677827, guid: 30abbf2176365bb45a0adf2540ac8399, type: 3}
       propertyPath: chaseRange
       value: 10

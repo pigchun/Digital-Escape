@@ -30,6 +30,7 @@ TagManager:
   - Key 8
   - Dust
   - Enemy
+  - Bullet
   layers:
   - Default
   - TransparentFX
